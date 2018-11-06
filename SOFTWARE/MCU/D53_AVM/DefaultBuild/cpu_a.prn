@@ -1,0 +1,38 @@
+
+
+
+78K0R Assembler V1.90                                                                                    Date: 5 Nov 2018 Page:   1
+
+
+
+Command:  -cf182848 -yC:\Program Files (x86)\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile SRC\cpu_a.asm -_msgoff -pDefault
+          Build -oDefaultBuild -zs
+Para-file:
+In-file:  SRC\cpu_a.asm
+Obj-file: DefaultBuild\cpu_a.rel
+Prn-file: DefaultBuild\cpu_a.prn
+
+      Assemble list
+
+ ALNO  STNO ADRS   OBJECT   M I  SOURCE STATEMENT
+
+    1     1                       
+    2     2                              public _Reset_ECU
+    3     3 -----                        CSEG    
+    4     4                       
+    5     5                      
+    6     6 00000                 _Reset_ECU:
+    7     7                      
+    8     8 00000  D7                    RET
+    9     9                       END
+
+Segment informations:
+
+ADRS  LEN      NAME
+
+00000 00001H   ?CSEG
+
+ Target chip : uPD78F1828_48
+ Device file : V1.01
+Assembly complete,     0 error(s) and     0 warning(s) found. (    0)
+

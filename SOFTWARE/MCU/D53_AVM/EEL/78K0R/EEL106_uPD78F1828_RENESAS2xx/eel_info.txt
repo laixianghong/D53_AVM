@@ -1,0 +1,78 @@
+---- eel_info.txt  ----
+
+Library:      78K0R/Fx3 EEL V1.0.6
+Date:         15.07.2010 17:48:10
+
+Environment:  PM plus(V6.30)
+              RA78K0R(V1.20)
+              CC78K0R(V2.00)
+
+
+Implementation of EEPROM emulation library for Renesas 78K0R single-chip microcontroller
+----------------------------------------------------------------------------------------
+Microcontroller Family:     78K0R/Fx3
+Flash technology:           MF2 single voltage SST flash (2KB flash block size)
+Required library:           FDL V1.0.2
+
+History:
+========
+V1.0.3  first release
+V1.0.4  internal improvements
+V1.0.5  internal improvements
+V1.0.6  internal improvements (FIP)
+
+Files:
+======
+
+<<Folder: / >>
+  eel_info.txt              <- this information file
+
+<<Folder: lib >>
+  eel.h                     <- EEL header file, EEL interface definition            DO NOT CHANGE PLEASE
+  eel_types.h               <- EEL header file, EEL types definition                DO NOT CHANGE PLEASE
+  eel.inc                   <- EEL assembler include file with                      DO NOT CHANGE PLEASE
+                               interface definition
+  eel_types.inc             <- EEL assembler include file with                      DO NOT CHANGE PLEASE
+                               EEL types definition
+  eel.lib                   <- pre-compiled library file                            DO NOT CHANGE PLEASE
+
+<<Folder: smp/C >>
+  eel_descriptor.c          <- User defined EEL-variable descriptor                 ADAPT DUE TO REQUIREMENTS
+  eel_descriptor.h          <- EEL configuration part                               ADAPT DUE TO REQUIREMENTS
+  eel_user_types.c          <- Sample user types for EEL variables                  ADAPT DUE TO REQUIREMENTS
+  eel_sample_linker_file.dr <- linker sample file for the uPD78F1845 device         ADAPT DUE TO REQUIREMENTS
+
+<<Folder: smp/asm >>
+  eel_descriptor.asm        <- User defined EEL-variable descriptor                 ADAPT DUE TO REQUIREMENTS
+                               and sample user types
+  eel_descriptor.inc        <- EEL configuration part                               ADAPT DUE TO REQUIREMENTS
+  eel_sample_linker_file.dr <- linker sample file for the uPD78F1845 device         ADAPT DUE TO REQUIREMENTS
+
+
+How to integrate:
+=================
+
+1) copy all the files into your project subdirectory
+
+2) add all eel*.* files into your project (workbench or make-file)
+   Attention: For C-Compiler project (eel_descriptor.c/eel_descriptor.h/eel_user_types.c)
+              For Assembler  project (eel_descriptor.asm/eel_descriptor.inc)
+
+3) add the FDL library into your project and configure the pool
+
+4) adapt project specific files as follows:
+
+   a) eel_descriptor.h/eel_descriptor.inc:
+      - set library storage type, number of variables and threshold
+      NOTE: In case the number of variables is changed descriptor in
+            eel_descriptor.c/eel_descriptor.asm must be adapted.
+   b) eel_user_types.h/eel_descriptor.asm
+      - configure the size of each user variable
+   c) eel_descriptor.c/eel_descriptor.asm
+      - in case of changed number of variables adapt the descriptor due to new/deleted variables
+
+5) adapt the *.dr file due to your requirements
+   --> at least segments EEL_CODE, EEL_CNST, EEL_DATA, EEL_SDAT and EEL_UDAT should be defined
+
+6) re-compile the project
+

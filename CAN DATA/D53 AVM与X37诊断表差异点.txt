@@ -1,0 +1,18 @@
+1.  D53有接收雷达报文    需增加 APA2 倒车雷达报文丢失异常 DTC吗？
+2.  19诊断服务 需要增加0x0A子服务吗?
+3.  X37 没有支持写入VIN码的DID,D53需要添加吗？
+4.  X37 不支持软重启，我们这边可以支持的，D53需要支持软重启吗？
+     Time          Chn     ID   Name             Event Type   Dir   DLC   Data             
+ [-] 2882.396231   CAN 1   71   StartF003::pos   pos                5     71 01 F0 03 54   
+       |  Basic diagnostics device   
+       |  SID_PR                     71                       71            
+       |  routineControlType         01                       01            
+       |  Routine_Identfier          F0 03                    F0 03         
+       |  routineStatusRecord        54                       54            
+       |  0000                       71 01 F0 03 54   q...T   
+
+
+ 
+
+
+

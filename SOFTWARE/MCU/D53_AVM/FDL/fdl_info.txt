@@ -1,0 +1,64 @@
+---- fdl_info.txt  ----
+
+Library:      78K0R/Fx3 FDL V1.0.2
+Date:         07.01.2010 13:56:31
+
+Environment:  PM plus(V6.30)
+              RA78K0R(V1.20)
+              CC78K0R(V2.00)
+
+
+Implementation of flash data library for NEC's 78K0R single-chip microcontroller
+--------------------------------------------------------------------------------
+Microcontroller Family:     78K0R/Fx3
+Flash technology:           MF2 single voltage SST flash (2KB flash block size)
+
+History:
+========
+V1.0.0  first release
+V1.0.1  internal improvement of retry circuit initialization
+V1.0.2  internal improvements
+
+Files:
+======
+
+<<Folder: / >>
+  fdl_info.txt              <- this information file
+
+<<Folder: lib >>
+  fdl.h                     <- FDL header file, FDL interface definition            DO NOT CHANGE PLEASE
+  fdl_types.h               <- FDL header file, FDL types definition                DO NOT CHANGE PLEASE
+  fdl.lib                   <- pre-compiled library file                            DO NOT CHANGE PLEASE
+  fdl.inc                   <- FDL assembler include file with                      DO NOT CHANGE PLEASE
+                               interface definition
+
+<<Folder: smp/C >>
+  fdl_descriptor.c          <- Descriptor calculation part                          DO NOT CHANGE PLEASE
+  fdl_descriptor.h          <- Pool configuration part                              ADAPT DUE TO REQUIREMENTS
+  fdl_sample_linker_file.dr <- linker sample file for the uPD78F1845 device         ADAPT DUE TO REQUIREMENTS
+
+<<Folder: smp/asm >>
+  fdl_descriptor.asm        <- Descriptor calculation part                          DO NOT CHANGE PLEASE
+  fdl_descriptor.inc        <- Pool configuration part                              ADAPT DUE TO REQUIREMENTS
+  fdl_sample_linker_file.dr <- linker sample file for the uPD78F1845 device         ADAPT DUE TO REQUIREMENTS
+
+
+How to integrate:
+=================
+
+1) copy all the files into your project subdirectory
+
+2) add all fdl*.* files into your project (workbench or make-file)
+   Attention: For C-Compiler project (fdl_descriptor.c/fdl_descriptor.h)
+              For Assembler  project (fdl_descriptor.asm/fdl_descriptor.inc)
+
+3) adapt project specific files as follows:
+
+   a) fdl_descriptor.h/fdl_descriptor.inc:
+      - adapt the pool configuration (please refer to the users manual for detailed description)
+
+4) adapt the *.dr file due to your requirements
+   --> at least segments FAL_CODE and FAL_CNST should be defined
+
+5) re-compile the project
+

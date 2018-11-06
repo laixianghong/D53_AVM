@@ -1,0 +1,289 @@
+QualityReport
+2017年7月10日 15:57:26
+
+------ Start build(K01_360View_PowerCtl, DefaultBuild) ------
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\main.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\uart.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\Stack.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\Can_User_App.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\cpu.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\Timer.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\Can_User_Diagnostic.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\ra78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\cpu_a.asm -_msgoff -pDefaultBuild -oDefaultBuild -zs
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\App.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" SRC\control.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" FDL\fdl_descriptor.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" FDL\DataFlash.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\CanDriver\Can_PBcfg.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\CanDriver\Can.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+ComStack\CanDriver\Can.c(130) : CC78K0R warning W0401: Conversion may lose significant digits
+ComStack\CanDriver\Can.c(184) : CC78K0R warning W0401: Conversion may lose significant digits
+ComStack\CanDriver\Can.c(214) : CC78K0R warning W0401: Conversion may lose significant digits
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\Com\App_Com.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\Dcm\App_Dcm.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\DDM\Ddm.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\DDM\DdmCbk.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\DDM\DdmCfg.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\cc78k0r.exe -cf182848 "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" ComStack\Nm\NmApp.c -oDefaultBuild -_msgoff -qx2 -iFDL -iSelfProgramming -iSRC "-iE:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\SRC" -iComStack\CanDriver -iComStack\CanInterface -iComStack\CanTp -iComStack\Com -iComStack\Common -iComStack\Dcm -iComStack\DDM -iComStack\Nm -zps -mm -mi0 -g2
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\lk78k0r.exe "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" -_msgoff -oDefaultBuild\K01_360View_PowerCtl.lmf -gi0FFFFFFFFFFFFFFFFFFFFh -go84h,1FFA8h,88 -gb7C90FEH -mi0 -s -pDefaultBuild\K01_360View_PowerCtl.map "F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\lib78k0r\s0rll.rel" DefaultBuild\main.rel DefaultBuild\uart.rel DefaultBuild\Stack.rel DefaultBuild\Timer.rel DefaultBuild\Can_User_App.rel DefaultBuild\cpu.rel DefaultBuild\fdl_descriptor.rel DefaultBuild\Can_PBcfg.rel DefaultBuild\Can.rel DefaultBuild\App_Com.rel DefaultBuild\App_Dcm.rel DefaultBuild\NmApp.rel DefaultBuild\Can_User_Diagnostic.rel DefaultBuild\cpu_a.rel DefaultBuild\App.rel DefaultBuild\Ddm.rel DefaultBuild\DdmCbk.rel DefaultBuild\DdmCfg.rel DefaultBuild\DataFlash.rel DefaultBuild\control.rel -bFDL\fdl.lib -bComStack\ProcSdk.lib -bcl0rdm.lib -bcl0rm.lib -bcl0rmf.lib "-iF:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\lib78k0r"
+F:\Program Files\Renesas Electronics\CubeSuite+\CA78K0R\V1.70\Bin\oc78k0r.exe "-yF:\Program Files\Renesas Electronics\CubeSuite+\Device\78K0R\Devicefile" DefaultBuild\K01_360View_PowerCtl.lmf -_msgoff -oDefaultBuild\K01_360View_PowerCtl.hex -kie -u0FFh -sDefaultBuild
+------ Build ended(Error:0, Warning:3)(K01_360View_PowerCtl, DefaultBuild) ------
+
+
+
+--- System Information ---
+*OS Version
+ Microsoft Windows 7 旗舰版 (Service Pack 1, 6.1.7601, WOW64)
+*Language
+ 中文(中华人民共和国)
+*.NET Framework Version
+ Microsoft .NET Framework 4.0.30319.42000
+
+--- Application Information ---
+*Package Version
+ V2.02.00  [21 Feb 2014]
+*Version
+ V4.02.00.07 [29 Jan 2014]
+*Assembly Version
+ 3.12.10.1
+*Sales Area
+ Japan
+*Product License
+ RL78,78K License Pack 1; 
+*Execution Place
+ F:\Program Files\Renesas Electronics\CubeSuite+
+*Memory Usage
+ *Private Working Set
+  141904 MB
+ *Number of GDI Objects
+  1281
+ *Number of USER Objects
+  580
+ *Opened Files
+  1 editors, 1 files, 36 KB
+
+--- Build Tool Plug-in Information ---
+V850 Build tool CA850 Plug-in
+ *Version
+  V4.02.00.02 [16 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCA850.dll
+78K0 Build tool CA78K0 Plug-in
+ *Version
+  V4.02.00.03 [16 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCC78K0.dll
+RL78,78K0R Build tool CA78K0R Plug-in
+ *Version
+  V4.02.00.03 [16 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCC78K0R.dll
+RH850 Build tool CC-RH Plug-in
+ *Version
+  V1.02.00.06 [28 Jan 2014]
+ *Assembly Version
+  1.1.10.12
+ *DLL File Name
+  BuildToolCCRH.dll
+RX Build tool CC-RX Plug-in
+ *Version
+  V2.02.00.04 [24 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCCRX.dll
+V850E2 Build tool CX Plug-in
+ *Version
+  V4.02.00.05 [28 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCX.dll
+
+--- Debug Tool Plug-in Information ---
+78K0 Emulator Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugTool78K0Emulator.dll
+RL78,78K0R Emulator Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugTool78K0REmulator.dll
+RL78,78K0R Simulator Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugTool78K0RSimulator.dll
+78K0 Simulator Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugTool78K0Simulator.dll
+Debugger Collection Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  2.12.10.1
+ *DLL File Name
+  DebugToolCollection.dll
+V850E2 Emulator Plug-in
+ *Version
+  V2.02.00.09 [04 Feb 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugToolV850E2REmulator.dll
+V850E2 Simulator Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugToolV850E2RSimulator.dll
+V850 Emulator Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugToolV850Emulator.dll
+V850 Simulator Plug-in
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  DebugToolV850Simulator.dll
+
+--- Other Plug-in Information ---
+Code Generator Plug-in(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+Code Generator Plug-in 2(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+Debug Console Plug-in(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+Pin Configurator Plug-in(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+Program Analyzer Plug-in(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+IronPython Console Plug-in(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+Editor plug-in DLL
+ *Version
+  V1.05.00.05 [29 Jan 2014]
+ *Assembly Version
+  1.1.0.0
+ *DLL File Name
+  SEditor.dll
+Stack Usage Tracer(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+Tool Interface Protocol (TIP) Plug-in(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+Update Manager Plug-in(-)
+ *Version
+  -
+ *Assembly Version
+  -
+ *DLL File Name
+  -
+
+Debug Tool Common Interface
+ *Version
+  V2.02.00.07 [17 Jan 2014]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  CommonDebuggerInterface.dll
+Device Information Common Interface
+ *Version
+  V4.02.00.02 [18 Dec 2013]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  DeviceInformation.dll
+
+--- Main Project Information ---
+E:\Work\13_Kissun Motor\K01\AVM\K01_360ViewWithPowerCtl\K01_360View_PowerCtl.mtpj
+Microcontroller Information
+ *uPD78F1828_48
+  *File Name: Version
+   78K_Productlist.xml: V1.310000
+   uPD78F1828_48_common.xml: V1.01.01.XX.01
+   DF182848.78K: V1.01
+   fc3_ga_can.ti: V1.00
+   -: -
+  
+
+Build Tool Information
+ *CA78K0R
+   * Version
+     V4.02.00.03 [16 Jan 2014]
+   * The Version of the Compiler Package
+     V1.70
+  
+
+Debug Tool Information
+ *78K0R MINICUBE2(Serial)
+  Debugger Library V2.02.00.07 [17 Jan 2014]
+  
+
+Other Tool Information
+ *None
+
+
